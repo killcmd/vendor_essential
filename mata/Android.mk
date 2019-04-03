@@ -111,17 +111,17 @@ LOCAL_MODULE_SUFFIX := .apk
 LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := Klik
-LOCAL_MODULE_OWNER := essential
-LOCAL_SRC_FILES := proprietary/priv-app/Klik/Klik.apk
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk
-LOCAL_PRIVILEGED_MODULE := true
-include $(BUILD_PREBUILT)
+# include $(CLEAR_VARS)
+# LOCAL_MODULE := Klik
+# LOCAL_MODULE_OWNER := essential
+# LOCAL_SRC_FILES := proprietary/priv-app/Klik/Klik.apk
+# LOCAL_CERTIFICATE := PRESIGNED
+# LOCAL_MODULE_TAGS := optional
+# LOCAL_MODULE_CLASS := APPS
+# LOCAL_DEX_PREOPT := false
+# LOCAL_MODULE_SUFFIX := .apk
+# LOCAL_PRIVILEGED_MODULE := true
+# include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := qcrilmsgtunnel
